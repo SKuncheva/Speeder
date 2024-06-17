@@ -1,0 +1,88 @@
+.productWrapper {
+  background-color: linear-gradient(-60deg, #4c5a72, #252a34, #252a34, #161c26);
+  width: 250px;
+  height: 350px;
+  border: 1px transparent;
+  border-radius: 5%;
+  padding: 10px;
+  box-shadow: 1px 2px 6px #28b6bdd1;
+  cursor: pointer;
+  transition: background-color, box-shadow 1s ease-out;
+}
+.productWrapper:hover{
+  background-color: #303643be;
+  box-shadow: 0px 10px 25px #28b6bdf1;
+  
+}
+
+.imgWrapper {
+  max-width: 200px;
+  max-height: 200px;
+  overflow: hidden;
+  margin: 15px auto;
+  position: relative;
+}
+.img {
+  width: 200px;
+  height: 160px;
+  object-fit: cover;
+}
+.description {
+  text-align: center;
+  line-height: 8px;
+  margin: 20px 0px;
+  color: #f8f8f8;
+  display: block;
+}
+.price {
+  font-size: 20px;
+  font-weight: 700;
+  color: #28b6bd;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.icon{
+  margin: -40px;
+  color:#ffffff3e;
+  font-size: 30px;
+  
+}
+.cart{
+  font-size: 32px;
+}
+.cart:hover{
+  color: #28b6bd;
+}
+.like {
+ position: relative;
+ top:3px;
+ left: -70px;
+}
+.like:hover{
+  color: #28b6bd;
+}
+
+.removeLikeButton{
+  display: none;
+}
+.seeWrapper{
+  position: absolute;
+  width: 200px;
+  height: 160px;
+  text-align: center;
+  opacity: 0;
+}
+.seeProduct{
+  font-size: 50px;
+  position: absolute;
+  top: 60px;
+  left: 75px;
+}
+.seeWrapper:hover{
+  opacity: 5;
+  color: #fff;
+  background: rgba(114, 114, 114, 0.1);
+  backdrop-filter: blur(15px);
+  border-radius: 10px;
+}
+

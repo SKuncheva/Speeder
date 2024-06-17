@@ -1,0 +1,240 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 1500px;
+ 
+
+}
+
+.bilboard {
+  width: 100%;
+  height: 600px;
+  margin: -70px auto 10px auto;
+  background-image: url(https://images.wallpaperscraft.com/image/single/abstraction_blue_lines_134008_1366x768.jpg);
+  background-position: center;
+  opacity: 0.8;
+  filter: drop-shadow(0 0 0.75rem rgb(241, 241, 241));
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+ 
+}
+
+.img {
+  height: 700px;
+  position: absolute;
+  top: 3rem;
+  left: 25rem;
+  transform: rotate(24deg);
+  filter: drop-shadow(-3px 15px 4px hsla(0, 0%, 4%, 0.925));
+  object-fit: contain;
+  z-index: -20;
+}
+.imgKids {
+  height: 800px;
+  position: absolute;
+  top: -3rem;
+  left: 23rem;
+  transform: rotate(30deg);
+  filter: drop-shadow(-3px 15px 4px hsla(0, 0%, 4%, 0.925));
+  object-fit: contain;
+}
+.text {
+  width: 450px;
+  font-weight: 800;
+  text-align: left;
+  border: 12px solid #fff;
+  padding: 60px 160px;
+  color: white;
+  text-shadow: 3px 3px 4px #454545;
+  line-height: 42px;
+  font-size: 85px;
+  position: absolute;
+  bottom: 90px;
+  left: 230px;
+  text-transform: uppercase;
+  z-index: 15;
+}
+.span {
+  font-weight: 700;
+  font-size: 45px;
+}
+.productWrapper {
+  width: 80%;
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  row-gap: 40px;
+  place-items: center;
+
+}
+
+/* ----------------Filter--------------- */
+.wrapperFilterClose {
+  display: none;
+}
+.wrapperFilterOpen {
+  width: 95%;
+  height: 80px;
+  margin: 0px auto;
+  color: aliceblue;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  z-index: 20;
+  background-color: #252a34ee;
+  box-shadow: 0px 3px 10px #7f8080d1;
+}
+
+.titleFilter {
+  font-size: 16px;
+  color: aliceblue;
+  padding: 20px 35px;
+  margin-bottom: -40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+}
+
+.elementSize {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+}
+.berandTitel {
+  margin: 0px auto;
+}
+.brandSelect {
+  font-size: 16px;
+  width: 180px;
+  height: 22px;
+  border-radius: 5px;
+  border: transparent;
+  font-weight: 600;
+  color: #36e1ea;
+  background-color: #252a34ee;
+}
+
+.elementBrand {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+.options {
+  background: #252a34ee;
+}
+.checkboxSize {
+  width: 12px;
+  height: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 15px 15px;
+  position: relative;
+  outline: none;
+}
+
+.checkbox {
+  z-index: 29;
+  opacity: 0;
+  overflow: hidden;
+  position: relative;
+  top: -18px;
+  left: -17px;
+  height: 41px;
+  width: 39px;
+  background: transparent;
+  border-radius: 10px;
+  cursor: pointer;
+  border: 3px solid transparent;
+  outline: none;
+  box-shadow: 15px 15px 25px rgba(2, 28, 53, 0.05);
+}
+
+.label {
+  display: block;
+  position: relative;
+  top: -65px;
+  left: 0px;
+}
+.label::before {
+  content: "";
+  position: relative;
+  top: 1px;
+  left: -15px;
+  display: inline-block;
+  width: 41px;
+  height: 36px;
+  border-radius: 6px;
+  background: rgba(219, 219, 219, 0.225);
+}
+.checkbox:checked + .label::before {
+  background: #5ac5c9;
+}
+
+.span {
+  color: #fff;
+  font-size: 15px;
+  position: relative;
+  top: -35px;
+  left: -3px;
+}
+
+.button {
+  width: 150px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #3d3d3f;
+  background-color: #28b6bd;
+  padding: 12px 35px;
+  margin-left: 25px;
+  border: transparent;
+  border-radius: 25px;
+  cursor: pointer;
+  box-shadow: 3px 3px 3px #5f606069;
+  transition: 0.5s;
+}
+.button:hover {
+  color: #fff;
+  background-color: #36e1ea;
+}
+
+.arrow {
+  font-size: 26px;
+  margin-left: 10px;
+  padding-top: 10px;
+  cursor: pointer;
+}
+.message {
+  width: 25rem;
+  color: #36e1ea;
+  font-size: 28px;
+  position: relative;
+  top: 105px;
+  left: 420px;
+}
+
+
+.elementPrice{
+  width: 226px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 0px;
+}
+.priceText{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  color: #36e1ea;
+  
+}
+/* ------------------------------------------------ */

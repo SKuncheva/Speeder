@@ -1,0 +1,28 @@
+.wrapper {
+  margin: 15px 40px;
+  padding: 20px 30px;
+  text-align: center;
+
+}
+.section {
+  width: 240px;
+  height: 160px;
+  background-color: #28b6bde5;
+  color: #fff;
+  display: inline-block;
+  align-items: center;
+  margin: auto 20px;
+  border-radius: 35px;
+  box-shadow: 5px 6px 3px #5f606069;
+}
+.element {
+  padding-top: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.icon {
+  width: 60px;
+  height: 50px;
+}

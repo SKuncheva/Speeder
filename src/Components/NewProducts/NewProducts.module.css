@@ -1,0 +1,32 @@
+.wrapper {
+  margin: 20px 0px;
+  padding: 10px 30px;
+  height: 500px;
+  color: #f8f8f8;
+  display: block;
+}
+.title {
+  text-align: center;
+  font-size: 24px;
+}
+.items {
+  height: 400px;
+  margin: 20px 40px;
+  padding: 8px 15px;
+}
+
+.positionItems {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+ 
+}
+
+@media screen and (max-width: 1200px) {
+.wrapper{
+  width: calc(100% - 5em);
+}
+
+}

@@ -1,0 +1,47 @@
+.wrapper {
+  width: 100%;
+  height: 1800px;
+
+}
+.imageWrapper {
+  margin-top: -71px;
+  margin-bottom: 50px;
+  height: 250px;
+  padding-top: 120px;
+  padding-bottom: 90px;
+  background-image: url(./image/sneaker.jpg);
+  background-repeat: no-repeat;
+  background-position: 100% 95%;
+  background-size: cover;
+  opacity: 0.7;
+  z-index: 5;
+}
+.textwrapper {
+  position: absolute;
+  bottom: 320px;
+  left: 300px;
+  font-weight: 600;
+  display: block;
+  text-align: center;
+  z-index: 3;
+  font-size: 32px;
+  color: #f9fafaea;
+  -webkit-text-stroke: 1px #9c9b9bd7;
+  text-shadow: 5px 5px #3d3d3dde;
+  line-height: 32px;
+}
+.title {
+  font-size: 75px;
+  text-transform: uppercase;
+}
+.product {
+  margin: 60px auto;
+  width: 90%;
+  
+}
+.sectionProduct {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  row-gap: 40px;
+  place-items: center;
+}
