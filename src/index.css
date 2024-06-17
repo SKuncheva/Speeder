@@ -1,0 +1,20 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  /* -webkit-font-smoothing: antialiased; */
+  /* -moz-osx-font-smoothing: grayscale; */
+  background: linear-gradient(
+    -60deg,
+    #161c26 52%,
+    #252a34 25%,
+    #252a34 40%,
+    #161c26 60%
+  );
+  height: 100%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
